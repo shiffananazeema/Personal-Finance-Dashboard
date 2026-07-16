@@ -4,7 +4,11 @@ A simple personal finance dashboard built with React, Material UI, Django REST F
 
 ## Demo
 
-![Finance Dashboard Demo](assets/Recording.gif)
+![Finance Dashboard Demo]
+
+[https://personal-finance-dashboard-web.onrender.com](https://personal-finance-dashboard-web.onrender.com)
+
+[](assets/Recording.gif)
 
 ## Features
 
