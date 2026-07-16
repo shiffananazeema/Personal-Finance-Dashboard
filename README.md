@@ -2,23 +2,23 @@
 
 A simple personal finance dashboard built with React, Material UI, Django REST Framework, and PostgreSQL.
 
-## Demo
+## Live Demo
 
-![Finance Dashboard Demo]
+[View the Finance Dashboard](https://personal-finance-dashboard-web.onrender.com)
 
-[https://personal-finance-dashboard-web.onrender.com](https://personal-finance-dashboard-web.onrender.com)
+## Demo Preview
 
-[](assets/Recording.gif)
+![Finance Dashboard Demo](assets/Recording.gif)
 
 ## Features
 
 - Track income and expenses
-- View current balance
+- View the current balance
 - Add, edit, and delete transactions
 - Track savings goals
 - View monthly savings
 - See spending by category
-- Responsive design
+- Use the dashboard on desktop and mobile devices
 
 ## Tech Stack
 
@@ -32,29 +32,15 @@ A simple personal finance dashboard built with React, Material UI, Django REST F
 
 ### Backend
 
-```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-```
 
 ### Frontend
 
-```bash
 cd frontend
 npm install
 npm run dev
-```
-
-## Project Structure
-
-```text
-finance-dashboard/
-├── backend/
-├── frontend/
-├── .gitignore
-└── README.md
-```
